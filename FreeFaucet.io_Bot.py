@@ -15,9 +15,8 @@ import sys
 from random import randrange
 import os
 
-driver_path = "chromedriver.exe"
-brave_path = "C:/Program Files/Google/Chrome/Application/chrome.exe"
-
+driver_path = "com.android.chrome"
+brave_path = "data/user/0/com.android.chrome"
 dir_path = os.path.dirname(os.path.realpath(__file__))
 credentials = "creds.txt"
 
